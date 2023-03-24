@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p{
+    text-align: justify;
+}
+
+blockquote{
+    border-left: 5px solid #FB923c;
+    padding-left: 15px;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.company-name{
+    color: #FB923c;
+    font-size: 20px;
+    font-weight: bold;
+}
