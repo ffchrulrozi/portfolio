@@ -513,8 +513,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
 .mt-10 {
@@ -537,16 +553,16 @@ video {
   height: 0.25rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .items-center {
@@ -590,17 +606,17 @@ video {
   background-color: rgb(15 118 110 / var(--tw-bg-opacity));
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
 .p-3 {
   padding: 0.75rem;
 }
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .px-36 {
@@ -652,9 +668,18 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+body{
+  font-size: 18px;
 }
 
 p {
@@ -672,14 +697,24 @@ a {
 }
 
 section {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+#preview{
+  background-image: url('/assets/img/banner.png');
+  background-size:cover;
+  height: 80vh;
 }
 
 .company-name {
   color: #FB923c;
   font-size: 20px;
   font-weight: bold;
+}
+
+.personal-project{
+  width: 300px;
+  height: 200px;
 }
 
 .project-tool-used {
