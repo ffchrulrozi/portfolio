@@ -701,7 +701,7 @@ section {
 }
 
 #preview{
-  background-image: url('/assets/img/banner.png');
+  background-image: url('/portfolio/assets/img/banner.png');
   background-size:cover;
   height: 80vh;
 }
